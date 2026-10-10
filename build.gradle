@@ -1,0 +1,11 @@
+allprojects {
+    version = '1.0'
+    ext {
+        // Vérifie la dernière version sur https://libgdx.com
+        gdxVersion = '1.13.1'
+    }
+    repositories {
+        mavenCentral()
+        google()
+    }
+}
